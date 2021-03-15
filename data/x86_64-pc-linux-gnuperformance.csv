@@ -1,0 +1,9 @@
+func,seconds,arch,machine,kernel,julia_version
+mysum,0.020940596,x86_64,x86_64-pc-linux-gnu,Linux,1.6.0-rc1
+mysum_ts,0.010527033,x86_64,x86_64-pc-linux-gnu,Linux,1.6.0-rc1
+mysum_simd,0.004202024,x86_64,x86_64-pc-linux-gnu,Linux,1.6.0-rc1
+base_sum,0.004335486,x86_64,x86_64-pc-linux-gnu,Linux,1.6.0-rc1
+inv,0.067740157,x86_64,x86_64-pc-linux-gnu,Linux,1.6.0-rc1
+matmul,0.048345977,x86_64,x86_64-pc-linux-gnu,Linux,1.6.0-rc1
+fib,3.0259e-5,x86_64,x86_64-pc-linux-gnu,Linux,1.6.0-rc1
+quicksort,5.052e-5,x86_64,x86_64-pc-linux-gnu,Linux,1.6.0-rc1
