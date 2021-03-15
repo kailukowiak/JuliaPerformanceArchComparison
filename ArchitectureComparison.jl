@@ -208,6 +208,9 @@ benchs = vcat(dfs...)
 # ╔═╡ 393655fc-8533-11eb-17b4-49ae548ab264
 groupedbar(benchs.func, benchs.seconds, group = benchs.machine, yscale=:log)
 
+# ╔═╡ e48852a4-8542-11eb-1222-adf2410c3f01
+groupedbar(benchs.func, benchs.seconds, group = benchs.machine)
+
 # ╔═╡ Cell order:
 # ╟─1b5a5134-84ed-11eb-2f45-076ca2ffa530
 # ╠═340883b6-84ed-11eb-0142-f59cf6156b77
@@ -247,3 +250,4 @@ groupedbar(benchs.func, benchs.seconds, group = benchs.machine, yscale=:log)
 # ╠═a30bef54-850e-11eb-3fca-49a5afed98ae
 # ╠═16690c66-850f-11eb-292a-edbe1d4f95dc
 # ╠═393655fc-8533-11eb-17b4-49ae548ab264
+# ╠═e48852a4-8542-11eb-1222-adf2410c3f01

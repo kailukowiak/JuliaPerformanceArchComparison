@@ -1,8 +1,9 @@
 func,seconds,arch,machine,kernel,julia_version
-mysum,0.040609125,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
-mysum_ts,0.009382625,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
-mysum_simd,0.002365459,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
-inv,0.10872625,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
-matmul,0.100793334,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
-fib,3.9292e-5,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
-quicksort,4.6041e-5,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
+mysum,0.040634667,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
+mysum_ts,0.009380291,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
+mysum_simd,0.002364375,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
+base_sum,0.001827916,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
+inv,0.110447,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
+matmul,0.10151575,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
+fib,3.9291e-5,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
+quicksort,4.4291e-5,x86_64,x86_64-apple-darwin18.7.0,Darwin,1.6.0-rc1
