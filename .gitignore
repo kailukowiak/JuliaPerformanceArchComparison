@@ -26,3 +26,4 @@ Manifest.toml
 # Personal stuff
 .vscode
 .ipynb_checkpoints
+.DS_STORE
