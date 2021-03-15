@@ -1,0 +1,8 @@
+func,seconds,arch,machine,kernel,julia_version
+mysum,0.040619917,aarch64,arm64-apple-darwin20.3.0,Darwin,1.7.0-DEV.706
+mysum_ts,0.009374292,aarch64,arm64-apple-darwin20.3.0,Darwin,1.7.0-DEV.706
+mysum_simd,0.002351208,aarch64,arm64-apple-darwin20.3.0,Darwin,1.7.0-DEV.706
+inv,0.051017334,aarch64,arm64-apple-darwin20.3.0,Darwin,1.7.0-DEV.706
+matmul,0.0419065,aarch64,arm64-apple-darwin20.3.0,Darwin,1.7.0-DEV.706
+fib,2.8417e-5,aarch64,arm64-apple-darwin20.3.0,Darwin,1.7.0-DEV.706
+quicksort,4.1917e-5,aarch64,arm64-apple-darwin20.3.0,Darwin,1.7.0-DEV.706
