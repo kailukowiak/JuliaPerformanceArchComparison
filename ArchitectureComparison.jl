@@ -131,6 +131,9 @@ end
 # ╔═╡ c6b27706-8507-11eb-21fd-8d48e5d897f7
 push!(df, ("mysum_simd", @belapsed mysum_simd($x)))
 
+# ╔═╡ 2216b348-8540-11eb-1857-8707044ca646
+push!(df, ("base_sum", @belapsed sum($x)))
+
 # ╔═╡ e27e9ecc-8507-11eb-340d-e30b2dc4a6d9
 X = rand(1_000, 1_000)
 
@@ -227,6 +230,7 @@ groupedbar(benchs.func, benchs.seconds, group = benchs.machine, yscale=:log)
 # ╠═bd1258ea-8507-11eb-0044-3d3aa12607ea
 # ╠═ba1cf492-8507-11eb-09e0-11e38b463e26
 # ╠═c6b27706-8507-11eb-21fd-8d48e5d897f7
+# ╠═2216b348-8540-11eb-1857-8707044ca646
 # ╠═e27e9ecc-8507-11eb-340d-e30b2dc4a6d9
 # ╠═e4a7bbb4-8507-11eb-24d7-e51ed7405490
 # ╠═fd04bca4-8507-11eb-3254-f178eee7eae4
